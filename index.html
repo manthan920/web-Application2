@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Host - Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Host</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="loginBtn" class="login-btn">Login</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Simple, Reliable Hosting</h1>
+                <p>
+                    Host your website quickly and securely with our simple
+                    hosting platform.
+                </p>
+                <button id="getStartedBtn" class="primary-btn">
+                    Get Started
+                </button>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Web Hosting</h3>
+                    <p>Fast and reliable hosting for your websites.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Cloud Storage</h3>
+                    <p>Store your important files securely in the cloud.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Security</h3>
+                    <p>Keep your website protected with modern security.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <h2>About Host</h2>
+            <p>
+                Host is a simple web application designed to demonstrate
+                a clean hosting service interface using HTML, CSS and
+                JavaScript.
+            </p>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Contact Us</h2>
+
+            <form id="contactForm">
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+                <button type="submit" class="primary-btn">
+                    Send Message
+                </button>
+            </form>
+
+            <p id="formMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Host. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
